@@ -1,0 +1,892 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    height: 15vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color:#8FD14F;
+}
+.logo{
+    height: 12vh;
+    width: 20%;
+    /* border: 2px solid; */
+    margin-left: 50px;
+    margin-top: 5px;
+    float: left;
+}
+.logo_img{
+    height: 12vh;
+    width: 28%;
+    /* border: 2px solid; */
+    float: left;
+    background-image:url("/dog/pexels-photo-170809-removebg-preview.png");
+    background-size: cover;
+    background-position: center;
+}
+.logo_lorem{
+    height: 12vh;
+    width: 72%;
+    /* border: 2px solid black; */
+    float: left;
+    color: white;
+    padding-top: 10px;
+
+}
+.logo_link{
+    height: 12vh;
+    width: 45%;
+    /* border: 2px solid; */
+    float: left;
+    margin-left: 45px;
+    margin-top: 5px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.logo_menu{
+    text-decoration: none;
+    padding-left:20px;
+    color: white;
+    font-weight: bold;
+}
+
+.search{
+    height: 7vh;
+    width: 20%;
+    /* border: 2px solid; */
+    float: left;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+.logo_se{
+    height: 7vh;
+    width: 75%;
+    /* border: 2px solid black; */
+    float: left;
+    color: white;
+    padding-top: 6px;
+    padding-left: 10px;
+    background-color: #FCCD2A;
+}
+.logo_se:hover{
+    background-color:darkkhaki;
+}
+
+.se_icon{
+    height: 7vh;
+    width: 25%;
+    /* border: 2px solid black; */
+    float: left;
+    color: white;
+    padding-top: 9px;
+    padding-left: 10px;
+    background-color: gray;
+    font-weight: bold;
+
+}
+.se_icon:hover{
+    background-color:darkkhaki;
+}
+
+
+/* START MAIN */
+
+.slid1{
+    height: 100vh;
+    width: 100%;
+    background-color:#FCCD2A;
+    
+}
+.slid1_right{
+    height: 90vh;
+    width: 50%;
+    /* border: 2px solid; */
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.slid1_hed{
+    height: 30vh;;
+    width: 100%;
+    /* border: 2px solid black;  */
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+
+}
+.slid1_lorem{
+    height: 30vh;;
+    width: 100%;
+    /* border: 2px solid black; */
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    padding: 20px;
+   
+}
+.slid1_botton{
+    height: 30vh;;
+    width: 100%;
+    /* border: 2px solid; */
+}
+.sea1{
+    /* background-color: blue; */
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 15px 35px 15px 35px;
+    color: white;
+    background-color:#8FD14F;
+
+}
+.sea1:hover{
+    background-color: green;
+}
+.sea2{
+    padding: 15px 35px 15px 35px;
+    color: white;
+    background-color: #FCCD2A;
+    margin-left: 15px;
+}
+.sea2:hover{
+    background-color:goldenrod;
+}
+.slid1_left{
+    height: 90vh;
+    width: 40%;
+    /* border: 2px solid; */
+    float: left;
+    background-image: url("/dog/dog-removebg-preview.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+}
+/* END SLID1 */
+
+/* START SLID2 */
+.second_slid{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.slid2_right{
+    height: 80vh;
+    width: 40%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.slid2_left{
+    height: 80vh;
+    width: 40%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 50px;
+    margin-left: 5px;
+
+}
+.slid2_hed{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.slid2_lorem{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    padding: 10px;
+
+}
+.slid2_botton{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.our_btton{
+    padding: 12px 30px;
+    background-color: #FCCD2A;
+    border-radius: 5px;
+}
+.our_btton:hover{
+    background-color: goldenrod;
+}
+
+
+.box_sha{
+    height: 30vh;
+    width: 15%;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+    margin-top: 261px;
+    opacity: 0.3;
+    
+}
+
+.box_image{
+
+    height: 75vh;
+    width: 95%;
+    float: left;
+    position: relative;
+    z-index: 2;
+    background-image: url("https://images.pexels.com/photos/28298018/pexels-photo-28298018/free-photo-of-a-girl-holding-a-dog-in-her-arms.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    margin-left: 22px;
+    border-radius: 15px;
+    background-position:center;
+}
+
+
+/* START SLID3 */
+
+.slid3{
+    height: 100vh;
+    width: 100%;
+    background-color:#FCCD2A
+    
+}
+.slid_3top{
+    /* border: 2px solid black; */
+    height: 30vh;
+    width: 100%;
+}
+.title_here{
+    height: 13vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 280px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
+
+
+.slid3_lorem{
+    height: 10vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 280px;
+    color: white;
+    text-align:center;
+    padding: 5px;
+}
+.slod3_bottom{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.slid3_box{
+    height: 70vh;
+    width: 25%;
+    /* border: 3px solid black; */
+    float: left;
+    margin-left: 110px;
+}
+.slid3_box_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/20897121/pexels-photo-20897121/free-photo-of-woman-sitting-and-hugging-shiba-inu-dog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    
+}
+.slid3_box1{
+    height: 70vh;
+    width: 25%;
+    /* border: 3px solid black; */
+    float: left;
+    margin-left: 30px;
+
+}
+.slid3_box1_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/27177012/pexels-photo-27177012/free-photo-of-portrait-of-smiling-couple-with-dog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    
+}
+.slid3_box2_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/14633606/pexels-photo-14633606.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-size: cover;
+    
+}
+.title{
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
+.slid3_text{
+    color: white;
+    padding: 5px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+/* END SLID3 */
+
+/* START SLID4 */
+.slid4{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+.slid2_left1{
+    height: 80vh;
+    width: 40%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.box_sha1{
+    height: 30vh;
+    width: 15%;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+    margin-top: 261px;
+    margin-left:310px ;
+    opacity: 0.3;
+    
+}
+
+/* START SLID5 */
+
+.slid5{
+    height: 100vh;
+    width: 100%;
+    background-color:#FCCD2A
+    
+}
+.slid_5top{
+    /* border: 2px solid black; */
+    height: 30vh;
+    width: 100%;
+}
+.title_here{
+    height: 13vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 280px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
+
+
+.slid5_lorem{
+    height: 10vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 280px;
+    color: white;
+    text-align:center;
+    padding: 5px;
+}
+.slod5_bottom{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.slid5_box{
+    height: 70vh;
+    width: 25%;
+    /* border: 3px solid black; */
+    float: left;
+    margin-left: 110px;
+}
+.slid5_box_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/4835626/pexels-photo-4835626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: top;
+    
+}
+.slid5_box1{
+    height: 70vh;
+    width: 25%;
+    /* border: 3px solid black; */
+    float: left;
+    margin-left: 30px;
+
+}
+.slid5_box1_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/5733407/pexels-photo-5733407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    
+}
+.slid5_box2_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/5731793/pexels-photo-5731793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+.title{
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
+.slid5_button{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 80px;
+    padding: 10px 30px;
+    background-color: violet;
+    border-radius: 15px;
+}
+
+/* START SLID6 */
+
+.slid6{
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+    
+}
+.slid_6top{
+    /* border: 2px solid black; */
+    height: 30vh;
+    width: 100%;
+}
+.team{
+    height: 10vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 150px;
+    margin-top: 1px;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    /* padding-top: 20px; */
+    
+}
+
+
+.slid6_lorem{
+    height: 10vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 280px;
+    color: black;
+    text-align:center;
+    padding: 5px;
+}
+.slod6_bottom{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.slid6_box{
+    height: 70vh;
+    width: 25%;
+    /* border: 3px solid black; */
+    float: left;
+    margin-left: 110px;
+}
+.slid6_box_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/5206931/pexels-photo-5206931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    
+}
+.slid6_box1{
+    height: 70vh;
+    width: 25%;
+    /* border: 3px solid black; */
+    float: left;
+    margin-left: 30px;
+
+}
+.slid6_box1_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/4167561/pexels-photo-4167561.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.slid6_box2_img{
+    height: 45vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/6749773/pexels-photo-6749773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    
+}
+.title1{
+    color:black;
+    padding-top: 15px;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    color: black;
+}
+.icon{
+    height: 10vh;
+    width: 100;
+    /* border: 2px solid black; */
+    color: white;
+    
+
+}
+.icon_show{
+    height: 8vh;
+    width: 15%;
+    /* border: 2px solid black; */
+    margin-top: 4px;
+    margin-left: 40px;
+    float: left;
+    border-radius: 50%;
+    background-color: #FCCD2A;
+    padding-left: 8px;
+    padding-top: 3px;
+}
+.icon_show1{
+    height: 8vh;
+    width: 15%;
+    /* border: 2px solid black; */
+    margin-top: 4px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 50%;
+    background-color: #FCCD2A;
+    padding-left: 8px;
+    padding-top: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    /* background-color:orange; */
+    font-size: 20px;
+}
+
+/*  START SLID7 */
+.seven{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/6129681/pexels-photo-6129681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+}
+.slid7{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: yellow;
+    z-index: 2;
+    position: absolute;
+    opacity: 0.7;
+}
+.happy_client{
+    height: 60vh;
+    width: 25%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px
+}
+.happy_client1{
+    height: 60vh;
+    width: 25%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 150px;
+    margin-left: 50px
+}
+.ri-nurse-line{
+    font-size: 100px;
+    /* color:white; */
+    padding-left: 90px;
+
+}
+
+.ri-hospital-line{
+
+    font-size: 100px;
+    /* color:white; */
+    padding-left: 90px;
+
+}
+.ri-service-fill{
+
+    font-size: 100px;
+    /* color:white; */
+    padding-left: 90px;
+
+}
+.number{
+    font-size: 30px;
+    text-align: center;
+    /* color: white; */
+}
+
+
+/* START SLID8   */
+
+.eight{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: whitesmoke;
+}
+.resent{
+    height: 13vh;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-left: 330px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.slid8_lorem{
+    height: 10vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 270px;
+    text-align: center;
+}
+.slid8_box1{
+    height: 70vh;
+    width: 25%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 120px;
+}
+.slid8_img1{
+    height: 40vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://images.pexels.com/photos/9574560/pexels-photo-9574560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+.slid8_box2{
+    height: 70vh;
+    width: 25%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 25px;
+}
+.slid8_img2{
+    height: 40vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://media.istockphoto.com/id/1205348947/photo/female-vet-with-a-dog.jpg?s=1024x1024&w=is&k=20&c=t2tzukFtBkqGqwgw6S8b6P6A4SSGeVne7vrBB3poAtg=");
+    background-size: cover;
+    background-position: center;
+    background-color: wheat;
+}
+.slid8_img3{
+    height: 40vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url("https://media.istockphoto.com/id/1303362255/photo/young-happy-veterinary-nurse-smiling-while-playing-with-a-dog-high-quality-photo.jpg?s=1024x1024&w=is&k=20&c=0NllABCXn1F8OsQfG5PAmAdrWf0Gz-kcsw1BS7oQzSA=");
+    background-size: cover;
+    background-position: center;
+}
+.raedmore{
+    color: violet;
+    padding-left: 5px;
+}
+.back{
+    background-color: wheat;
+}
+
+
+/* START SLID9 */
+.nine{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: #1A3636;
+
+}
+.slid9{
+    height: 60vh;
+    width: 100%;
+    /* border: 2px soli black; */
+    
+}
+.slid9_box1{
+    height: 60vh;
+    width: 20%;
+    /* border: 2px solid; */
+    float: left;
+    margin-left: 160px;
+    margin-top: 25px;
+}
+.slid9_box2{
+    height: 60vh;
+    width: 20%;
+    /* border: 2px solid; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.slid9_box3{
+    height: 60vh;
+    width: 30%;
+    /* border: 2px solid; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.about{
+    color: white;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.history{
+    color: white;
+    padding-left: 20px;
+    line-height: 25px;
+}
+.title_here1{
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    color: white;
+    padding-left: 190px;
+
+}.slide9_lorem{
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    color: white;
+    padding-left: 60px;
+    padding-right: 1px;
+    font-size: 20px;
+
+}
+.slide9_search{
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.slide9_icon{
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+.slide9_blank{
+    height: 10vh;
+    width: 75%;
+    /* border: 2px solid black; */
+    float: left;
+    background-color: orange;
+}
+.slide9_forword{
+    height: 10vh;
+    width: 25%;
+    /* border: 2px solid black; */
+    float: left;
+    background-color: deepskyblue;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+.ri-send-plane-fill{
+    color: white;
+    font-size: 25px;
+    /* padding-left: 20px; */
+}
+.icon_link1{
+    height: 10vh;
+    width: 15%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 90px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 13px;
+    background-color: white;
+
+    
+}
+.icon_link1:hover{
+    background-color: #6EC207;
+}
+.icon_link{
+    height: 10vh;
+    width: 16%;
+    /* border: 2px solid black; */
+    float: left;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 13px;
+    margin-left: 10px; 
+    background-color: white;
+    
+}
+.icon_link:hover{
+    background-color: #6EC207;
+}
+
+.ri-instagram-line{
+    color: #000;
+    font-size: 30px;
+}
+.ri-twitter-fill{
+    color: #000;
+    font-size: 30px;
+}
+.ri-facebook-fill{
+    color: #000;
+    font-size: 30px;
+}
+.ri-whatsapp-line{
+    color: #000;
+    font-size: 30px;
+}
